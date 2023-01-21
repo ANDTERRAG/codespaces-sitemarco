@@ -4,3 +4,55 @@ body{
     margin: 0;
     
 }
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: black;
+    color: white;
+}
+.titleLogo{
+    font-size: 40px;
+}
+.containerNav ul{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    font-size: 22px;
+    font-weight: 400;
+    color: brown;
+}
+.containerNav ul a{
+    color:white;
+    text-decoration: none;
+}
+.Hero{
+
+    width: 100vw;
+    min-height: 600px;
+    background-image: url('https://eritvnews.com/wp-content/uploads/2023/01/Court-Justice-Gavel.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.textHero{
+    width: 42vw;
+    min-height: auto;
+    background-color: rgb(235, 195, 147, 0.5);
+    padding-top: 50px;
+    margin: 0 50px 50px 50px;
+    font-size: 20px;
+}
+.Serviços{
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: justify;
+}
+.Serviços ul{
+    list-style: none;
+    text-align: justify;
+    line-height: 3rem;
+}
