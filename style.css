@@ -121,3 +121,81 @@ html{
     line-height: 3rem;
     font-size: 22px;
 }
+
+#Contato h3{
+    margin: 0px;
+}
+
+#Contato{
+    margin: 0px;
+    min-height: 400px;
+    background-color: rgb(25, 16, 13);
+    color: white;
+    padding: 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    gap: 6rem;
+    font-size: 35px;
+  }
+  .contatoContainer{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 3rem;
+    font-size: 20px;
+
+  }
+  #textoDiv{
+    width: 500px;
+    height: auto;
+    text-align: justify;
+    letter-spacing: 2.3px;
+    line-height: 38px;
+    font-size: 18px;
+  }
+  #textoDiv h3{
+    margin-bottom: 50px;
+  }
+  #formDiv{
+    width: 500px;
+    height: auto;
+    border: white solid 1px;
+    border-radius: 7px;
+    padding: 30px;
+    background-color: rgb(238, 235, 235);
+    
+  }
+  #formDiv form{
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+    background-color: rgb(238, 235, 235);
+  }
+  #formDiv form input{
+    min-height: 25px;
+    font-size: 18px;
+    background-color: rgb(231, 228, 228);
+    border-radius: 5px;
+    border: 1px solid black;
+  }
+  #formDiv form textarea{
+    min-height: 85px;
+    font-size: 18px;
+    background-color:rgb(231, 228, 228);
+    border-radius: 5px;
+    border: 1px solid black;
+  }
+  #formDiv form button{
+    min-height: 45px;
+    font-size: 18px;
+    background-color: rgb(13, 32, 70);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin-right: 70%;
+  }
+  #formDiv form button:hover{
+    cursor: pointer;
+  }
