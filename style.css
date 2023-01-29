@@ -2,10 +2,25 @@ body{
     box-sizing: border-box;
     text-decoration: none;
     margin: 0;
-    
+    z-index: 3;
 }
 html{
     scroll-behavior: smooth;
+}
+#whatsapp{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    display: flex;
+    justify-content: flex-end;
+    align-content: flex-end;
+    align-items: flex-end;
+    
+}
+#whatsapp a{
+    margin-bottom: 30px;
+    margin-right: 30px;
+   
 }
 .navbar{
     display: flex;
