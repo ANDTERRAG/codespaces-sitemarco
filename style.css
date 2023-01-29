@@ -4,12 +4,16 @@ body{
     margin: 0;
     
 }
+html{
+    scroll-behavior: smooth;
+}
 .navbar{
     display: flex;
     justify-content: space-between;
-    padding: 16px;
+    padding: 10px 50px;
     background-color: black;
     color: white;
+    
 }
 .TitleLogo{
     font-size: 18px;
@@ -22,9 +26,18 @@ body{
     font-weight: 400;
     color: brown;
 }
+.containerNav ul li{
+    transition: 400ms;
+}
 .containerNav ul a{
     color:white;
     text-decoration: none;
+}
+.containerNav ul a:hover{
+    color:rgb(255, 255, 255, 0.7);
+}
+.containerNav ul li:hover{
+    margin-top: 4px;
 }
 .Hero{
 
@@ -42,17 +55,45 @@ body{
 .textHero{
     width: 40vw;
     min-height: auto;
-   /*  background-color: rgb(235, 195, 147, 0.5); */
-    margin: 0 50px 50px 50px;
+    background-color: rgba(207, 189, 168, 0.4);
+    margin: 50px 50px 50px 50px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 30px;
-    font-weight: 800;
+    font-weight: 700;
+    text-align: left;
+    border-radius: 18px; 
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 30px;
+    
+    
+}
+.textHero h4{
+    margin: 0px;
+    
+}
+.textHero a{
+    color:rgb(18, 18, 18);
+    max-width: 180px;
+    padding: 10px 30px;
+    text-decoration: none;
+    border: 3px solid rgb(18, 18, 18);
+    border-radius: 8px;
+    transition: 500ms;
+    font-size: 26px;
     text-align: center;
-    border-radius: 18px;
+    
+}
+.textHero a:hover{
+    color:rgb(18, 18, 18, 0.7);
+    border: 3px solid rgb(18, 18, 18, 0.7);
+    margin-left: 20px;
+    
 }
 
-
-.Sobre{
+#Sobre{
     background-color: black;
     display: flex;
     justify-content: space-around;
@@ -65,16 +106,18 @@ body{
 .sobreText h4{
     font-size: 32px;
 }
-.Serviços{
+#Serviços{
     background-color: black;
     color: white;
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: justify;
+    font-size: 28px;
 }
-.Serviços ul{
+#Serviços ul{
     list-style: none;
     text-align: justify;
     line-height: 3rem;
+    font-size: 22px;
 }
